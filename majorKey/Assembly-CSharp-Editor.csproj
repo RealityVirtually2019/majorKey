@@ -65,6 +65,7 @@
     <Compile Include="Assets\MagicLeap\Scripts\Editor\BuildMabuWindow.cs" />
     <Compile Include="Assets\MagicLeap\Scripts\Editor\MLVersionMenuItem.cs" />
     <Compile Include="Assets\MagicLeap\Scripts\Editor\MusicExampleBuilder.cs" />
+    <Compile Include="Assets\MidiJack\Editor\MidiJackWindow.cs" />
     <None Include="Assets\MagicLeap\Libs\Editor\LuminUnityEditor.xml" />
     <Reference Include="Unity.XR.MagicLeap.Editor">
       <HintPath>/Users/just4kas/Documents/Gap Year/Reality Virtually/majorKey/majorKey/Library/ScriptAssemblies/Unity.XR.MagicLeap.Editor.dll</HintPath>
