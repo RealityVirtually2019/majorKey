@@ -4,7 +4,8 @@ using MidiJack;
 public class Pulse : MonoBehaviour {
 
     public int noteNumber;
-
+    public AudioSource meow;
+    public int transpose = -4;
     void Update()
     {
 
@@ -17,10 +18,9 @@ public class Pulse : MonoBehaviour {
                 GetComponent<Renderer>().material.color = color;
                 transform.localScale = Vector3.one * (0.1f + MidiMaster.GetKey(i));
                 print(i);
+                meow.Play();
+
             }
         }
-
     }
-
-
 }
