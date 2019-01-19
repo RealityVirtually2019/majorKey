@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{7A85CD07-CA90-F87B-1EB6-D07C41C12E97}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../MidiJack-master/Assets/Example Note/NoteIndicatorGroup.cs">
+    <Files>
+      <File FileName="Assets/ControlScript.cs" Line="35" Column="18" />
+      <File FileName="Assets/Pulse.cs" Line="15" Column="1" />
+      <File FileName="../../../MidiJack-master/Assets/Example Note/NoteIndicatorGroup.cs" Line="15" Column="9" />
+      <File FileName="../../../MidiJack-master/Assets/Example Note/NoteIndicator.cs" Line="15" Column="1" />
+      <File FileName="../../../MidiJack-master/Assets/Example Note/spolo.cs" Line="18" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
