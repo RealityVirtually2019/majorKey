@@ -14,12 +14,18 @@ public class Pulse : MonoBehaviour {
             if (MidiMaster.GetKeyDown(i))
             {
                 print(MidiMaster.GetKeyDown(i));
-                var color = MidiMaster.GetKeyDown(i) ? Color.red : Color.white;
+                var color = Color.yellow;
                 GetComponent<Renderer>().material.color = color;
-                transform.localScale = Vector3.one * (0.1f + MidiMaster.GetKey(i));
+                //transform.localScale = Vector3.one * (0.1f + MidiMaster.GetKey(i));
                 print(i);
                 meow.Play();
 
+            }
+            if (MidiMaster.GetKeyUp(i))
+            {
+                var color = Color.white;
+                GetComponent<Renderer>().material.color = color;
+                //transform.localScale = Vector3.one * (0.1f + MidiMaster.GetKey(i));
             }
         }
     }

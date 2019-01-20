@@ -6,6 +6,7 @@ using UnityEngine.XR.MagicLeap;
 
 public class ControlScript : MonoBehaviour
 {
+    //private GameObject ControllerMesh;
     private GameObject _cube;
     private MLInputController _controller;
     private const float _rotationSpeed = 30.0f;
@@ -16,6 +17,7 @@ public class ControlScript : MonoBehaviour
 
     void Awake()
     {
+        //ControllerMesh = GameObject.Find("Controller");
         Console.WriteLine("Hello World!");
         _cube = GameObject.Find("Cube");
         MLInput.Start();
@@ -33,6 +35,8 @@ public class ControlScript : MonoBehaviour
 
     void Update()
     {
+        transform.position = _controller.Position;
+        //print(_controller.Position);
         if (_bumper && _enabled)
         {
             _cube.GetComponent<Renderer>().material.color = new Color(UnityEngine.Random.Range(0, 255), UnityEngine.Random.Range(0, 255), UnityEngine.Random.Range(0, 255));
@@ -46,15 +50,16 @@ public class ControlScript : MonoBehaviour
         {
             _bumper = false;
             _cube.transform.Rotate(Vector3.up, -_rotationSpeed * Time.deltaTime);
+            _cube.transform.position = _controller.Position;
         }
         else if (_controller.Touch1PosAndForce.z > 0.0f && _enabled)
         {
-            float X = _controller.Touch1PosAndForce.x;
-            float Y = _controller.Touch1PosAndForce.y;
-            Vector3 forward = Vector3.Normalize(Vector3.ProjectOnPlane(transform.forward, Vector3.up));
-            Vector3 right = Vector3.Normalize(Vector3.ProjectOnPlane(transform.right, Vector3.up));
-            Vector3 force = Vector3.Normalize((X * right) + (Y * forward));
-            _cube.transform.position += force * Time.deltaTime * _moveSpeed;
+            //float X = _controller.Touch1PosAndForce.x; TOUCHPAD
+            //float Y = _controller.Touch1PosAndForce.y;
+            //Vector3 forward = Vector3.Normalize(Vector3.ProjectOnPlane(transform.forward, Vector3.up));
+            //Vector3 right = Vector3.Normalize(Vector3.ProjectOnPlane(transform.right, Vector3.up));
+            //Vector3 force = Vector3.Normalize((X * right) + (Y * forward));
+            //_cube.transform.position += force * Time.deltaTime * _moveSpeed;
         }
     }
 
@@ -75,6 +80,16 @@ public class ControlScript : MonoBehaviour
             _cube.transform.rotation = transform.rotation;
             _enabled = true;
         }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        //print(other.gameObject.name);
+        if (_controller.TriggerValue > 0.8f)
+        {
+            other.gameObject.transform.position = _controller.Position;
+        }
+
     }
 
 }
