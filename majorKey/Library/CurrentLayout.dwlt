@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 506
+    x: 240
     y: 45
     width: 1440
     height: 830
@@ -294,8 +294,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 509
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -373,7 +373,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 643
+    x: 377
     y: 94
     width: 425
     height: 488
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.25490227, y: 0.64892375, z: -0.24559838, w: 0.67350817}
     speed: 2
-    m_Value: {x: 0.2549011, y: 0.64892083, z: -0.24559726, w: 0.6735051}
+    m_Value: {x: 0.25490227, y: 0.6489238, z: -0.24559838, w: 0.67350817}
   m_Size:
     m_Target: 2.2250264
     speed: 2
@@ -452,16 +452,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 19
+    x: 240
+    y: 94
     width: 133
     height: 488
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22380000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d8faffff00000000
+    m_ExpandedIDs: dafaffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -530,7 +530,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1072
+    x: 806
     y: 94
     width: 273
     height: 488
@@ -605,7 +605,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 506
+    x: 240
     y: 603
     width: 839
     height: 250
@@ -621,20 +621,19 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Sounds/Notes
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/just4kas/Documents/Gap Year/Reality Virtually/majorKey/majorKey
+  m_LastProjectPath: /Users/iainsmith/Documents/GitHub/majorKey/majorKey
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0a270000
     m_LastClickedID: 9994
-    m_ExpandedIDs: 000000005430000046340000a034000062370000983900009a390000
+    m_ExpandedIDs: 0000000052300000b2310000e2330000443400009e34000060370000ac390000ae390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -659,10 +658,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 284}
+    scrollPos: {x: 0, y: 236}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000054300000b4310000e433000046340000a034000062370000983900009a390000
+    m_ExpandedIDs: 0000000052300000b2310000e2330000443400009e34000060370000ac390000ae390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,8 +761,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 843
-    y: 19
+    x: 1083
+    y: 94
     width: 597
     height: 759
   m_PersistentViewDataDictionary: {fileID: 0}
