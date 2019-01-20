@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: c13ab5772714046f0a28f99dfa6cb3ec
+  productGUID: 6bd93844526e64ec5ab47175ee2b07cc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -156,7 +156,6 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Lumin: com.magicleap.majorkey
     Standalone: com.Company.ProductName
   buildNumber: {}
   AndroidBundleVersionCode: 1
@@ -673,8 +672,8 @@ PlayerSettings:
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 3d90c5ed-ddea-489b-9978-5fc593a1a312
-  projectName: majorKey (1)
+  cloudProjectId: 4b6b483b-4929-4fcf-a5ec-aa357901745d
+  projectName: majorKey (3)
   organizationId: wildmangoproductions
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

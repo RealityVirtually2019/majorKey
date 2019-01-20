@@ -18,7 +18,6 @@ public class ControlScript : MonoBehaviour
     {
         Console.WriteLine("Hello World!");
         _cube = GameObject.Find("Cube");
-        _cube.SetActive(false);
         MLInput.Start();
         MLInput.OnControllerButtonDown += OnButtonDown;
         MLInput.OnControllerButtonUp += OnButtonUp;
