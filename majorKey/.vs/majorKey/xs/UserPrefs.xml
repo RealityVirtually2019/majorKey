@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{7A85CD07-CA90-F87B-1EB6-D07C41C12E97}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Pulse.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PianoControl/Key.cs">
     <Files>
-      <File FileName="Assets/ControlScript.cs" Line="90" Column="30" />
-      <File FileName="Assets/Pulse.cs" Line="29" Column="1" />
+      <File FileName="Assets/ControlScript.cs" Line="18" Column="27" />
+      <File FileName="Assets/Pulse.cs" Line="19" Column="27" />
       <File FileName="Assets/MagicLeap/Examples/Scripts/Visualizers/ControllerVisualizer.cs" Line="1" Column="1" />
       <File FileName="Assets/mover.cs" Line="6" Column="5" />
+      <File FileName="Assets/PianoControl/MasterPiano.cs" Line="44" Column="44" />
+      <File FileName="Assets/BeginGame.cs" Line="16" Column="25" />
+      <File FileName="Assets/PianoControl/Key.cs" Line="1" Column="1" />
+      <File FileName="Assets/MidiJack/MidiDriver.cs" Line="76" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

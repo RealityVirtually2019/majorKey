@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BeginGame.cs" />
     <Compile Include="Assets\ControlScript.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\BaseRaycast.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\BitMask.cs" />
@@ -145,6 +146,8 @@
     <Compile Include="Assets\MidiJack\MidiMaster.cs" />
     <Compile Include="Assets\MidiJack\MidiStateUpdater.cs" />
     <Compile Include="Assets\mover.cs" />
+    <Compile Include="Assets\PianoControl\Key.cs" />
+    <Compile Include="Assets\PianoControl\MasterPiano.cs" />
     <Compile Include="Assets\Pulse.cs" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />
