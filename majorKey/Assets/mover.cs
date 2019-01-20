@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mover : MonoBehaviour {
 
-    float scrollSpeed = 0.5f;
+    float scrollSpeed = 0.08f;
     Renderer rend;
 
     void Start()
