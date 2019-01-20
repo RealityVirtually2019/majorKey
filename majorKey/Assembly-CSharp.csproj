@@ -144,6 +144,7 @@
     <Compile Include="Assets\MidiJack\MidiDriver.cs" />
     <Compile Include="Assets\MidiJack\MidiMaster.cs" />
     <Compile Include="Assets\MidiJack\MidiStateUpdater.cs" />
+    <Compile Include="Assets\mover.cs" />
     <Compile Include="Assets\Pulse.cs" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />
