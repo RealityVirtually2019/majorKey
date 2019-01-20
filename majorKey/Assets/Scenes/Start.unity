@@ -419,6 +419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sheet: {fileID: 963541094}
   baton: {fileID: 1462077864}
+  black: {fileID: 0}
+  pianoRenderer: {fileID: 0}
 --- !u!4 &618693314
 Transform:
   m_ObjectHideFlags: 0
@@ -642,7 +644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &963541095
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -706,7 +708,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 963541094}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.0266, y: 0.0222, z: -0.0287}
+  m_LocalPosition: {x: -0.0266, y: 0.0049, z: -0.0287}
   m_LocalScale: {x: 0.011500005, y: 0.0010400526, z: 0.0010400523}
   m_Children:
   - {fileID: 909684063}

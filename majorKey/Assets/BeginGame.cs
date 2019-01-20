@@ -6,13 +6,13 @@ public class BeginGame : MonoBehaviour {
 
     public GameObject sheet;
     public GameObject baton;
-
-	
+    public Material black;
+    public Renderer pianoRenderer;
 	// Update is called once per frame
 	void Update () {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            print("GO");
+            //print("GO");
             StartGame();
         }
 	}
@@ -20,6 +20,6 @@ public class BeginGame : MonoBehaviour {
     public void StartGame() {
         sheet.SetActive(true);
         baton.SetActive(false);
-
+        pianoRenderer.material = black;
     }
 }

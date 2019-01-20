@@ -52,9 +52,9 @@ public class ControlScript : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        print(other.name);
+       //print(other.name);
         obj = other.gameObject;
-        print(other.gameObject.name);
+        //print(other.gameObject.name);
         if (_controller.TriggerValue > 0.8f)
         {
             _isGrabbing = true;

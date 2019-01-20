@@ -30,7 +30,7 @@ public class Key : MonoBehaviour {
 
 	public void OnPressUp(){
 		isDown = false;
-		source.Stop();
+		//source.Stop();
 		thisRenderer.material = blackMat;
 	}
 }
